@@ -22,16 +22,18 @@ s5={(1,2),2,3}
 print(s5)
 
 #Set Operations :-
-#1.Union : |
+#1.Union : |     :- this will give combine 2 set collection
+print("Union :->")
 T1 ={1,2,3,4,5}
 T2= {4,5,6,7,8}
 T3=T1.union(T2) # or T1|T2
 
 print(T3)
 
-#Intersection: &
+#Intersection: &   -> this will give common value from 2 sets
+print("Intersection :->")
 T4 ={1,2,3,4,5}
-T5= {6,7,8}
+T5= {4,5,6,7,8}
 
 print(T4&T5)
 #or
@@ -43,6 +45,7 @@ else:
     print("is not null")
 
 #Difference of Sets: - difference()
+print("Difference :->")
 T7 ={1,2,3,4,5}
 T8= {4,5,6,7,8}
 print(T7-T8)
@@ -56,10 +59,12 @@ print(T9^T8)
 
 #Set In-Built methods:
 #1.add()
+print("Adding value :- add()")
 p1={"java","Python","c++"}
 p1.add("dotnet")
 print(p1)
 #2.upadte()
+print("UPdating value :- update()")
 p2={"java","Python","c++"}
 p2.update(["c","VbScript"]) #this is not list [] that we are adding
 print(p2)
